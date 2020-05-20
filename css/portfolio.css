@@ -70,8 +70,7 @@ header {
         font-weight: bold; }
       .skill .box > div .program {
         display: inline-block;
-        text-align: center;
-        margin-right: 2em; }
+        text-align: center; }
         .skill .box > div .program p {
           text-align: center;
           margin: 0;
@@ -105,17 +104,14 @@ foter {
   text-align: center; }
 
 .popup_help {
-  padding: 0 3px;
-  color: #66f;
-  font-weight: bold;
   cursor: pointer; }
 
 .popup_help_window {
   max-width: 300px;
   position: absolute;
   padding: 6px 15px;
-  background-color: #fff;
-  border: 5px double #ccc;
+  background-color: ivory;
+  border: 3px double #ccc;
   display: none;
   color: #63f;
   font-size: 15px;
