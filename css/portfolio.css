@@ -1,0 +1,127 @@
+.fullpage {
+  background-color: ivory; }
+
+header {
+  padding: 0;
+  margin: 0; }
+  header .nav_bar {
+    padding: 0;
+    margin: 0; }
+    header .nav_bar ul {
+      text-align: right;
+      margin: 10px 10px 0 0; }
+      header .nav_bar ul a {
+        display: inline-block;
+        margin-right: 10px;
+        text-decoration: none;
+        color: skyblue; }
+        header .nav_bar ul a:hover {
+          color: blue; }
+
+#top {
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center; }
+  #top .top_title {
+    color: skyblue;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'M PLUS Rounded 1c', sans-serif; }
+  #top p {
+    text-align: center; }
+
+.profile {
+  height: 100vh;
+  text-align: center; }
+  .profile .profile_title {
+    font-size: 35px; }
+  .profile .profile-icon {
+    margin: 30px auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%; }
+
+.skill {
+  width: 100%;
+  text-align: center; }
+  .skill .skill_title {
+    font-size: 35px; }
+  .skill .box {
+    width: 100%;
+    display: -webkit-flex;
+    display: flex; }
+    .skill .box > div {
+      width: 30%;
+      position: relative;
+      margin: 2em 1em;
+      padding: 0.5em 1em;
+      border: solid 3px #95ccff;
+      border-radius: 8px; }
+      .skill .box > div span {
+        position: absolute;
+        top: -13px;
+        left: 10px;
+        padding: 0 9px;
+        line-height: 1;
+        font-size: 19px;
+        background: #FFF;
+        color: #95ccff;
+        font-weight: bold; }
+      .skill .box > div .program {
+        display: inline-block;
+        text-align: center;
+        margin-right: 2em; }
+        .skill .box > div .program p {
+          text-align: center;
+          margin: 0;
+          padding: 0; }
+        .skill .box > div .program .my-orange {
+          color: #fecb81; }
+        .skill .box > div .program .my-skyblue {
+          color: skyblue; }
+        .skill .box > div .program .my-yellow {
+          color: gold; }
+        .skill .box > div .program .my-parple {
+          color: #CC66FF; }
+        .skill .box > div .program .my-pink {
+          color: #FA8072; }
+        .skill .box > div .program .my-blue {
+          color: #66CDAA; }
+        .skill .box > div .program img {
+          vertical-align: top; }
+
+.Portfolio {
+  height: 100vh;
+  text-align: center; }
+  .Portfolio .Portfolio_title {
+    font-size: 35px; }
+
+foter {
+  height: 1%;
+  background-color: ivory;
+  padding: 0;
+  margin: 0;
+  text-align: center; }
+
+.popup_help {
+  padding: 0 3px;
+  color: #66f;
+  font-weight: bold;
+  cursor: pointer; }
+
+.popup_help_window {
+  max-width: 300px;
+  position: absolute;
+  padding: 6px 15px;
+  background-color: #fff;
+  border: 5px double #ccc;
+  display: none;
+  color: #63f;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.5em;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #ccc; }
+
+/*# sourceMappingURL=portfolio.css.map */
