@@ -30,9 +30,9 @@
    }else if(icon_name === "html_icon"){
      var coment = "HTMLはWebブラウザで表示するためにマークアップ言語です。このサイトもHTMLを使用し作成しています。"
    }else if(icon_name === "css_icon"){
-     var coment = "あらゆるデバイスでスタイルを作るための言語です。このサイトもCSSを使用しデザインしています。"
+     var coment = "CSSはあらゆるデバイスでスタイルを作るための言語です。このサイトもCSSを使用しデザインしています。"
    }else if(icon_name === "js_icon"){
-     var coment = "ブラウザ上で動作し、様々な機能を付加できるスクリプト言語です。JavaScriptを用いて動きのあるリッチなサイトの作成を行えます。このPOPもJavaScriptで表示しています。"
+     var coment = "JavaScriptはブラウザ上で動作し、様々な機能を付加できるスクリプト言語です。JavaScriptを用いて動きのあるリッチなサイトの作成を行えます。このPOPもJavaScriptで表示しています。"
    }else if(icon_name === "tax_icon"){
      var coment = "法人税、所得税、消費税の申告書の作成を行えます。税理士科目の簿記論及び財務諸表論取得済み。法人税法を勉強中"
    }else if(icon_name === "accounting_icon"){
